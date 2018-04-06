@@ -47,9 +47,9 @@ function createConcourseFoundationTeam() {
   cc_pass="${3}"
   admin_team="${4}"
 
-  echo "Setting Concourse team for foundation [$foundation_name]."
-  user_auth_params="--basic-auth-username=\"$cc_user\" --basic-auth-password=\"$cc_pass\""
-  [ "${cc_user,,}" == "none" ] || [ "${cc_user,,}" == "changeme" ] && user_auth_params=" --no-really-i-dont-want-any-auth ";
+  # echo "Setting Concourse team for foundation [$foundation_name]."
+  # user_auth_params="--basic-auth-username=\"$cc_user\" --basic-auth-password=\"$cc_pass\""
+  # [ "${cc_user,,}" == "none" ] || [ "${cc_user,,}" == "changeme" ] && user_auth_params=" --no-really-i-dont-want-any-auth ";
   # ./fly -t $admin_team set-team -n $foundation_name --non-interactive $user_auth_params
 
 }
