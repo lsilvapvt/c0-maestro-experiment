@@ -164,9 +164,9 @@ vcenter_insecure: true
 
 # *********** Credentials for Concourse Team ***********
 # admin user ID for the Concourse team to be created for the foundation. e.g. admin
-concourse_team_userid: ((concourse_team_userid))
+concourse_team_userid: ((concourse_main_userid))
 # admin user ID for the Concourse team to be created for the foundation.
-concourse_team_pass: ((concourse_team_pass))
+concourse_team_pass: ((concourse_main_pass))
 #    The four parameters below need to be defined only if the Concourse server
 #    for this foundation's team and pipelines differs from the one defined in /common/credentials.yml
 #
